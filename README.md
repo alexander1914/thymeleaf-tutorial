@@ -13,6 +13,7 @@ For further reference, please consider the following sections:
 
 * [Spring Web](https://docs.spring.io/spring-boot/4.1.0/reference/web/servlet.html)
 * [Thymeleaf](https://docs.spring.io/spring-boot/4.1.0/reference/web/servlet.html#web.servlet.spring-mvc.template-engines)
+* [Thymeleaf Documentation](https://www.thymeleaf.org/documentation.html)
 
 ### Guides
 The following guides illustrate how to use some features concretely:

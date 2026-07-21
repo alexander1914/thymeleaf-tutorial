@@ -20,9 +20,16 @@ public class UserController {
     /// Handler method to handle selection expression
     // http://localhost:8080/selection-expression
     @GetMapping("selection-expression")
-    public String selectionExpression(Model model){
+    public String selectionExpression(Model model) {
         User user = new User("Alexander", "alexander.oliveira99@gmail.com", "ADMIN", "Male");
         model.addAttribute("user", user);
         return "selection-expression";
+    }
+
+    /// Handler method to handle message expressions request
+    // http://localhost:8080/message-expression
+    @GetMapping("message-expression")
+    public String messageExpression() {
+        return "message-expression";
     }
 }
